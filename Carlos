@@ -1,0 +1,14 @@
+create table Persona(
+usuarios text NOT null,
+codigo_alumno Text not null,
+password text not null, 
+genero text not null
+);
+
+INSERT INTO Persona VALUES ('Alonso','201810049','Ute3c456','Hombre');
+
+INSERT INTO Persona VALUES ('Belen','201510087','Utec33151','Mujer');
+
+INSERT INTO Persona VALUES ('Piero','2011487155','Utec3458','Hombre');
+
+Select * from Persona
